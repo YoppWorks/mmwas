@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Theremin - Screen - GM" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="8-oracle" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="com.yoppworks.mmwas.MakingMusicWithAkkaStreams" />
+    <module name="MMwAS" />
+    <option name="PROGRAM_PARAMETERS" value="--mode=screen -l=false --sustain-rate=1s --sample-rate=10ms" />
+    <option name="VM_PARAMETERS" value="-Dtheremin.version=1.0 -Dakka.loglevel=OFF -XX:MaxGCPauseMillis=40 -XX:+UseG1GC -Xmx1g" />
+    <RunnerSettings RunnerId="Debug with VisualVM">
+      <option name="visualVMId" value="75600370865325" />
+    </RunnerSettings>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

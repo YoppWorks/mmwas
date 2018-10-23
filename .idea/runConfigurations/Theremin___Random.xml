@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Theremin - Random" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="10" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="com.yoppworks.mmwas.MakingMusicWithAkkaStreams" />
+    <module name="MMwAS" />
+    <option name="PROGRAM_PARAMETERS" value="--mode=random" />
+    <option name="VM_PARAMETERS" value="-Dtheremin.version=1.0" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
