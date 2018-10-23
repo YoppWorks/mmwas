@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MMwAS - iPhone" type="Run as an Embedded Java application" factoryName="Embedded Linux JVM" singleton="true">
+    <option name="classesDirectory" />
+    <option name="hostname" value="172.20.10.13" />
+    <option name="keyPath" value="" />
+    <option name="password" value=";sniggle;" />
+    <option name="port" value="1234" />
+    <option name="programArguments" value="--mode=screen -l=false --sustain-rate=1s --sample-rate=1ms --sound-font=$USER_HOME$/Music/Arachno-SoundFont-Version-1.0.sf2" />
+    <option name="runAsRoot" value="false" />
+    <option name="sshPort" value="22" />
+    <option name="username" value="pi" />
+    <option name="usingKey" value="false" />
+    <option name="vmParameters" value="-Dversion=1.0 -Dakka.loglevel=INFO -XX:MaxGCPauseMillis=40 -XX:+UseG1GC -Xmx512m" />
+    <option name="moduleName" value="MMwAS" />
+    <option name="mainclass" value="com.yoppworks.mmwas.MakingMusicWithAkkaStreams" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
